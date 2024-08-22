@@ -31,7 +31,26 @@ $ cargo install cargo-generate
 
 > *Note:* You can also just clone this repository instead of using `cargo-generate`, but this involves additional manual adjustments.
 
-## Setup
+## Run LED example
+
+Simply run
+
+
+``` console
+$ rustup target add thumbv7em-none-eabihf
+```
+
+once and then
+
+
+ ``` console
+$ cargo run --release --bin led
+
+ ```
+
+Change code as desired.
+
+## Setup ⚠️  Already done ⚠️
 
 #### 1. Initialize the project template
 
